@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# CAD Locks & Backup files
+*.lck
+*.tmp
+~*
+*.bak
+*.log
