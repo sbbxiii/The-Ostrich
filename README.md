@@ -1,4 +1,4 @@
-# Hexacopter-CAD: Parametric 3D CAD Model & Technical Manufacturing Drawings for a Custom UAV Airframe
+# 🪶 The Ostrich: Parametric 3D CAD Model & Technical Manufacturing Blueprints for a Modular Hexacopter UAV
 
 [![CAD Platform: Siemens Solid Edge](https://img.shields.io/badge/CAD-Siemens_Solid_Edge-005F87.svg?style=flat-square&logo=siemens)](https://solidedge.siemens.com/)
 [![Configuration: Hexacopter](https://img.shields.io/badge/Airframe-6--Rotor_Hexacopter-blue.svg?style=flat-square)](#)
@@ -10,7 +10,7 @@
 
 ## 1. Executive Summary
 
-**Hexacopter-CAD** is an engineered parametric 3D CAD model and complete technical drafting package for a modular, heavy-lift hexacopter Unmanned Aerial Vehicle (UAV). Designed from first principles in **Siemens Solid Edge**, this repository provides native CAD assembly models (`.asm`), parametric part models (`.par`), comprehensive 2D manufacturing blueprints (`.dft` / PDF), and production-ready additive manufacturing meshes (`.stl`).
+**The Ostrich** is an engineered parametric 3D CAD model and complete technical drafting package for a modular, heavy-lift hexacopter Unmanned Aerial Vehicle (UAV). Designed from first principles in **Siemens Solid Edge**, this repository provides native CAD assembly models (`.asm`), parametric part models (`.par`), comprehensive 2D manufacturing blueprints (`.dft` / PDF), and production-ready additive manufacturing meshes (`.stl`).
 
 The airframe is designed around a 6-rotor radial symmetry layout, providing inherent thrust redundancy, high payload stability, and optimized motor nacelles specifically tailored for **Maxon DC-max 16 S** high-precision DC drives.
 
@@ -19,11 +19,11 @@ The airframe is designed around a 6-rotor radial symmetry layout, providing inhe
 ## 2. Airframe Assembly & Exploded Visualizations
 
 ### Fully Assembled Airframe Architecture
-![Hexacopter Assembly Drawing](docs/images/assembly_drawing.png)
-*Sheet 20: General arrangement drawing illustrating isometric, top, front, and side orthographic projections of the assembled UAV airframe.*
+![The Ostrich Assembly Drawing](docs/images/assembly_drawing.png)
+*Sheet 20: General arrangement drawing illustrating isometric, top, front, and side orthographic projections of The Ostrich UAV airframe.*
 
 ### Exploded Callout Assembly & Bill of Materials
-![Hexacopter Exploded View](docs/images/exploded_view.png)
+![The Ostrich Exploded View](docs/images/exploded_view.png)
 *Sheet 21: Exploded assembly drawing detailing component indexing, hardware fasteners, structural pins, and subassembly breakdown.*
 
 ---
@@ -34,7 +34,7 @@ The airframe consists of four primary mechanical subsystems:
 
 ```mermaid
 flowchart TD
-    subgraph Airframe_Assembly ["Hexacopter UAV Airframe"]
+    subgraph Airframe_Assembly ["The Ostrich UAV Airframe"]
         Hub["Central Chassis Hub<br/>(Top & Bottom Carbon/Alu Plates)"]
         Arms["Radial Arm Subsystem<br/>(6x Tubular Carbon Booms + Collars)"]
         Nacelles["Propulsion Nacelles<br/>(6x Housings + Maxon DC-max 16S + Props)"]
@@ -112,7 +112,7 @@ For prototyping or low-volume fabrication using FDM or SLS 3D printing:
 ## 6. Repository Structure
 
 ```
-Hexacopter-CAD/
+The-Ostrich/
 ├── cad/
 │   ├── assembly/
 │   │   ├── assembly view of drone.asm   # Main Solid Edge 3D assembly
